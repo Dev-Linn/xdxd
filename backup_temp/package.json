@@ -1,0 +1,33 @@
+{
+  "name": "google-analytics-oauth",
+  "version": "1.0.0",
+  "description": "Google Analytics OAuth authentication with Express",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "google",
+    "oauth",
+    "analytics",
+    "express"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@google-analytics/admin": "^8.2.0",
+    "@google-analytics/data": "^3.2.0",
+    "cookie-session": "^2.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-session": "^1.18.1",
+    "google-auth-library": "^8.7.0",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
